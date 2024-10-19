@@ -8,7 +8,7 @@ const Home = () => {
   useEffect(() => {
     const fetchMessage = async () => {
       const token = localStorage.getItem('token');
-      const response = await axios.get('https://entri-mern-be.onrender.com/api/auth/home', {
+      const response = await axios.get('https://entri-mern-be-1.onrender.com/api/auth/home', {
         headers: { Authorization: `Bearer ${token}` },
       });
       setMessage(response.data.message);

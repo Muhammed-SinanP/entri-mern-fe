@@ -12,7 +12,7 @@ const Signup = () => {
   const handleSignup = async (e) => {
     e.preventDefault();
     try {
-      const response = await axios.post('https://entri-mern-be.onrender.com/api/auth/signup', {
+      const response = await axios.post('https://entri-mern-be-1.onrender.com/api/auth/signup', {
         username,
         email,
         password,
