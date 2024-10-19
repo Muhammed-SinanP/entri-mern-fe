@@ -8,7 +8,7 @@ const Home = () => {
   useEffect(() => {
     const fetchMessage = async () => {
       const token = localStorage.getItem('token');
-      const response = await axios.get('http://localhost:5000/api/auth/home', {
+      const response = await axios.get('https://e44sinan-mern-assignment.netlify.app/api/auth/home', {
         headers: { Authorization: `Bearer ${token}` },
       });
       setMessage(response.data.message);
