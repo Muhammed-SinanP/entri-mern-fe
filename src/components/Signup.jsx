@@ -12,7 +12,7 @@ const Signup = () => {
   const handleSignup = async (e) => {
     e.preventDefault();
     try {
-      const response = await axios.post('https://e44sinan-mern-assignment.netlify.app/api/auth/signup', {
+      const response = await axios.post('https://entri-mern-be.onrender.com/api/auth/signup', {
         username,
         email,
         password,
