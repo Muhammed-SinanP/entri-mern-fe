@@ -1,0 +1,136 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f7f7f7;
+  color: #333;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  margin: 0;
+}
+
+.container {
+  width: 100%;
+  max-width: 400px;
+  margin: 20px;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 24px;
+  color: #444;
+}
+
+/* Form Styling */
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+input {
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+input:focus {
+  outline: none;
+  border-color: #007bff;
+}
+
+button {
+  padding: 10px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+/* Centering the form on the page */
+.auth-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.message {
+  text-align: center;
+  margin-top: 20px;
+  font-size: 18px;
+  color: #28a745;
+}
+
+.error {
+  text-align: center;
+  margin-top: 20px;
+  font-size: 18px;
+  color: #dc3545;
+}
+
+/* Home Page Styling */
+.home {
+  text-align: center;
+}
+
+.home h1 {
+  color: #333;
+}
+
+.home button {
+  padding: 10px 20px;
+  font-size: 18px;
+  background-color: #dc3545;
+  border-radius: 5px;
+}
+
+.home button:hover {
+  background-color: #c82333;
+}
+
+@media (max-width: 500px) {
+  .container {
+    width: 90%;
+  }
+
+  button {
+    font-size: 14px;
+  }
+}
+
+
+span{
+  color: blue;
+  cursor: pointer;
+}
+
+span:hover{
+  text-decoration: underline;
+}
+
+.input-element{
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
